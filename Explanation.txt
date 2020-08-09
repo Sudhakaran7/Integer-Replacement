@@ -1,0 +1,52 @@
+You are given with a number n, you have to say in how many steps it can be replaced to 1 with following operations,
+If n is even, replace n with n/2.
+If n is odd, you can replace n with either n + 1 or n - 1.
+What is the minimum number of replacements needed for n to become 1?
+
+Input description:
+n an integer (1<n<1000)
+
+Output Description:
+minimum number of replacements needed for n to become 1
+
+Sample Input:
+7
+
+Sample Output:
+4
+
+Explanation:
+n=7,
+so first n=n+1, n=7+1=8
+now 8/2 -> 4/2 -> 2/2 ->1
+so four steps
+
+Sample Input:
+13
+
+Sample Output:
+5
+
+Sample Input:
+244
+
+Sample Output:
+10
+
+Sample Input:
+555
+
+Sample Output:
+13
+
+Sample Input:
+777
+
+Sample Output:
+12
+
+Sample input:
+2
+
+Sample Ouptut:
+1
